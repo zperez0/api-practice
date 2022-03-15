@@ -21,7 +21,7 @@ $(document).ready(function() {
     promise.then(function(response) {
       const body = JSON.parse(response);
       $('.showHumidity').text(`The humidity in ${city} is ${body.main.humidity}%`);
-      $('.showTemp').text(`The temperature in Fer is ${body.main.temp} degrees.`);
+      $('.showTemp').text(`The temperature in fahrenheit is ${body.main.temp} degrees.`);
       $('.showWind').text(`The wind is ${body.wind.speed} mph`);
       $('.showClouds').text(`Cloudiness is ${body.clouds.all}%`);
     }, function(error) {
