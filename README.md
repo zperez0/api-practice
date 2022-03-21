@@ -1,10 +1,13 @@
-# Weather API
+# Weather & Giphy API
 
 #### By _**Z Perez**_
 
 
 ## Technologies Used
 
+* _HTML_
+* _CSS_
+* _Bootstrap_
 * _JavaScript_
 * _WebPack_
 * _JSON_
@@ -14,7 +17,7 @@
 
 ## Description
 
-api weather practice
+api weather and giphy practice
 
 ## Setup/Installation Requirements
 

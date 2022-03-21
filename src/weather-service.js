@@ -3,7 +3,7 @@
 export default class WeatherService {
   static async getWeather(city) {
     try {
-      const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`);
+      const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.OPEN_WEATHER_API_KEY}`);
       if(!response.ok) {
         throw Error(response.statusText);
       }
