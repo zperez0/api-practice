@@ -12,7 +12,7 @@ function clearFields() {
 }
 
 function displayWeatherDescription(description) {
-  $('.weather-description').text(`The weather is ${description}!`);
+  $('.weather-description').append(`The weather is ${description}!`);
 }
 
 function displayGif(response) {

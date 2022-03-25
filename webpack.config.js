@@ -16,7 +16,7 @@ devServer: {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'weather',
+      title: 'pokedex',
       template: './src/index.html',
       inject: 'body',
     }),
